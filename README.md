@@ -76,7 +76,39 @@ div4 {
  float: none;
 }
 ~~~
-Selanjutnya buka rowser dan refresh kembali.
+Selanjutnya buka browser dan refresh kembali.
 
 ![4](https://user-images.githubusercontent.com/81820421/115936053-865e4a80-a4be-11eb-9ac2-692b7a166957.JPG)
+Lakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya (left, both, right),
+dan amati perubahannya.
+coba ubah posisi menjadi right .
+~~~
+<section>
+    <div class="div1">Div 1</div>
+    <div class="div2">Div 2</div>
+    <div class="div3">Div 3</div>
+    <div class="div4">Div 4</div>
+   </section>
+   <style>
+    div {
+    float:right;
+    padding: 10px;
+    }
+    .div1 {
+    background: red;
+    }
+    .div2 {
+    background: yellow;
+    }
+    .div3 {
+    background: green;
+    }
+    .div4 {
+ background-color: blue;
+ clear: right;
+ float: both;
+}
+~~~
+![5](https://user-images.githubusercontent.com/81820421/115936659-0fc24c80-a4c0-11eb-88a3-125be97be59a.JPG)
 
+Coba lakukan refresh pada Web dan lihat hasilnya.
