@@ -112,3 +112,61 @@ coba ubah posisi menjadi right .
 ![5](https://user-images.githubusercontent.com/81820421/115936659-0fc24c80-a4c0-11eb-88a3-125be97be59a.JPG)
 
 Coba lakukan refresh pada Web dan lihat hasilnya.
+
+## 4.Membuat Layout Sederhana
+Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama
+home.html, dan file css dengan nama style.css.
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <div id="container">
+   
+    </div>
+   </body>
+   </html>
+   ~~~
+   Kemudian tulis kode berikut.
+   ~~~
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+           </header>
+           <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+           </nav>
+           <section id="hero"></section>
+           <section id="wrapper">
+            <section id="main"></section>
+            <aside id="sidebar"></aside>
+           </section>
+           <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+           </footer>
+   
+    </div>
+   </body>
+   </html>
+   ~~~
+  
+   ![6](https://user-images.githubusercontent.com/81820421/115937529-6466c700-a4c2-11eb-9457-4503f5be8fe0.JPG)
+   Kemudian buka browser dan lihat hasilnya.
+
