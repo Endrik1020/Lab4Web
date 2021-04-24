@@ -496,13 +496,98 @@ Dan lihat ini hasil nya stelah web di refresh .
 => buat single layout yang berisi deskripsi, portfolio, dll
 
 # membuat layout untuk portofolio endrik photograpy 
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Endrik Photography </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Endrik Photography</h1>
+   </header>
+   <nav>
+    <a href="home.html" class="active">Home</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="about.html">About</a>
+    <a href="kontak.html">Kontak</a>
+   </nav>
+   <section id="hero"></section>
+   <section id="wrapper">
+    <section id="main"></section>
+    <aside id="sidebar"></aside>
+   </section>
+   <section id="hero">
+    <h1>Hello Calon Manten!</h1>
+    <p>Kita adalah vendor Photography terbaik di Indonesia. Abadikan moment pernikahan kalian dengan kita 
+        Moto kita adalah make classy your story .</p>
+    <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+   </section>
+   <aside id="sidebar">
+    <div class="widget-box">
+    <h3 class="title">Widget Header</h3>
+    <ul>
+    <li><a href="#">Wedding Photo</a></li>
+    <li><a href="#">Prewedding Photo</a></li>
+    <li><a href="#">Maternity Photo</a></li>
+    <li><a href="#">Casual Photo</a></li>
+    <li><a href="#">Personal Photography</a></li>
+    </ul>
+   
+   <footer>
+    <p>&copy; 2021 - Wedding Photography Indonesia</p>
+   </footer>
+<body>
+ <div id="container">
 
+ </div>
+</body>
+</html>
+~~~
 ![14](https://user-images.githubusercontent.com/81820421/115945891-fdf49f80-a4e7-11eb-9062-60fa2599f56b.JPG)
 
 
 
 2. Tambahkan layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Endrik Photography </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Endrik Photography</h1>
+   </header>
+   <nav>
+    <a href="home.html" class="active">Home</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="about.html">About</a>
+    <a href="kontak.html">Kontak</a>
+   </nav>
+   <form>
+       <fieldset>
+           <legend>Kontak</legend>
+           <p>
+            <h1><br>Endrik Photography</p><h/1></h>
+
+               <a href="https://mail.google.com/mail/u/0/#inbox"> Endrikbinsuwarih@gmail.com</a>
+            </p>
+
+              Telephone : 089654886651
+              </fieldset>
+   </form>
+</body>
+</html
+~~~
+
+![16](https://user-images.githubusercontent.com/81820421/115946240-149bf600-a4ea-11eb-99c0-f8578a861c87.JPG)
+
 
 
 
