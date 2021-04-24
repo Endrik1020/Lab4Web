@@ -200,6 +200,31 @@ header h1 {
 ~~~
 ![7](https://user-images.githubusercontent.com/81820421/115943606-11e5d480-a4db-11eb-8ddb-d002c84e6288.JPG)
 Dan lihat hasilnya setelah di refresh .
+# Membuat Navigasi
+Kemudian selanjutnya mengatur navigasi
+Masukan sourcode ini ke style.css
+~~~
+/* navigasi */
+nav {
+ display: block;
+ background-color: #1f5faa;
+}
+nav a {
+ padding: 15px 30px;
+ display: inline-block;
+ color: #ffffff;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+ background-color: #2b83ea;}
+ ~~~
+ ![8](https://user-images.githubusercontent.com/81820421/115943961-304ccf80-a4dd-11eb-97e1-193dcd902b0f.JPG)
+ 
+#
+
 
    
    
