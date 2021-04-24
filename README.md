@@ -223,7 +223,39 @@ nav a:hover {
  ~~~
  ![8](https://user-images.githubusercontent.com/81820421/115943961-304ccf80-a4dd-11eb-97e1-193dcd902b0f.JPG)
  
-#
+# Membuat Hero Panel.
+Selanjutnya membuat hero panel. Tambahkan kode HTML 
+~~~
+<section id="hero">
+ <h1>Hello World!</h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+pretium ac.</p>
+ <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+</section>
+~~~ 
+Dan ini kode untuk css nya.
+~~~
+/* Hero Panel */
+#hero {
+ background-color: #e4e4e5;
+ padding: 50px 20px;
+ margin-bottom: 20px;
+}
+#hero h1 {
+ margin-bottom: 20px;
+ font-size: 35px;
+}
+#hero p {
+ margin-bottom: 20px;
+ font-size: 18px;
+ line-height: 25px;}
+ ~~~
+ Dan lihat hasilnya setelah di refresh. 
+ 
+
+
 
 
    
