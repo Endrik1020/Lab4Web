@@ -253,6 +253,27 @@ Dan ini kode untuk css nya.
  line-height: 25px;}
  ~~~
  Dan lihat hasilnya setelah di refresh. 
+ ![9](https://user-images.githubusercontent.com/81820421/115944355-7b67e200-a4df-11eb-9a19-93b35bf41fad.JPG)
+# Mengatur Layout Main dan Sidebar
+Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
+~~~
+/* main content */
+#wrapper {
+ margin: 0;
+ }
+ #main {
+ float: left;
+ width: 640px;
+ padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+ float: left;
+ width: 260px;
+ padding: 20px;
+}
+~~~
+ ~~~
  
 
 
