@@ -348,6 +348,19 @@ Tambahkan code css nya.
  line-height:25px;}
  ~~~
  ![10](https://user-images.githubusercontent.com/81820421/115944845-79535280-a4e2-11eb-9442-cfa40b7f5c84.JPG)
+ # Mengatur Footer
+Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
+~~~
+/* footer */
+footer {
+ clear:both;
+ background-color:#1d1d1d;
+ padding:20px;
+ color:#eee;
+ }
+ ~~~
+ ![11](https://user-images.githubusercontent.com/81820421/115944891-e4048e00-a4e2-11eb-9628-a198171338bc.JPG)
+
 
  
  
