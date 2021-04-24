@@ -491,6 +491,19 @@ Kemudian tambahkan CSS.
 Dan lihat ini hasil nya stelah web di refresh .
 ![13](https://user-images.githubusercontent.com/81820421/115945218-d5b77180-a4e4-11eb-83c0-e7ea95b9d93e.JPG)
 
+## Pertanyaan dan Tugas
+1. Tambahkan Layout untuk menu About
+=> buat single layout yang berisi deskripsi, portfolio, dll
+
+# membuat layout untuk portofolio endrik photograpy 
+
+![14](https://user-images.githubusercontent.com/81820421/115945891-fdf49f80-a4e7-11eb-9062-60fa2599f56b.JPG)
+
+
+
+2. Tambahkan layout untuk menu Contact
+=> yang berisi form isian: nama, email, message, dll
+
 
 
 
