@@ -439,6 +439,58 @@ euismod.</p>
 ~~~
 ![12](https://user-images.githubusercontent.com/81820421/115945049-e0bdd200-a4e3-11eb-9309-30e40707e7e5.JPG)
 Dan lihat hasilnya setelah direfresh .
+# Menambahkan Content Artikel
+Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
+~~~
+<hr class="divider" />
+<article class="entry">
+ <h2>First featurette heading.</h2>
+ <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="">
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+pretium ac.</p>
+</article>
+<hr class="divider" />
+<article class="entry">
+ <h2>First featurette heading.</h2>
+ <img src="https://dummyimage.com/150/7b8a70/fff.png" alt=""
+class="right-img">
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+pretium ac.</p>
+</article>
+~~~
+Kemudian tambahkan CSS.
+~~~
+.divider {
+    border:0;
+    border-top:1px solid #eeeeee;
+    margin:40px 0;
+   }
+   /* entry */
+   .entry {
+    margin: 15px 0;
+   }
+   .entry h2 {
+    margin-bottom: 20px;
+}
+.entry p {
+ line-height: 25px;
+}
+.entry img {
+ float: left;
+ border-radius: 5px;
+ margin-right: 15px;
+}
+.entry .right-img {
+ float: right;
+}
+~~~
+Dan lihat ini hasil nya stelah web di refresh .
+![13](https://user-images.githubusercontent.com/81820421/115945218-d5b77180-a4e4-11eb-83c0-e7ea95b9d93e.JPG)
+
 
 
 
